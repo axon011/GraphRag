@@ -66,3 +66,9 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated GraphRAG indices and debug files
+*.faiss
+*.pkl
+debug_output.txt
+.coverage

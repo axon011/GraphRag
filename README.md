@@ -383,9 +383,9 @@ MIT License - feel free to use this project for learning and development
 
 ## 📧 Contact & Links
 
-- **GitHub**: [Your GitHub Profile]
-- **LinkedIn**: [Your LinkedIn]
-- **Portfolio**: [Your Website]
+- **GitHub**: [https://github.com/axon011/axon011.github.io](https://github.com/axon011/axon011.github.io)
+- **LinkedIn**: [https://linkedin.com/in/aravind-pradeepmadathinal](https://linkedin.com/in/aravind-pradeepmadathinal)
+- **Portfolio**: [https://github.com/axon011/axon011.github.io](https://github.com/axon011/axon011.github.io)
 
 ---
 
