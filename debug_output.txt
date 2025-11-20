@@ -1,6 +1,0 @@
-Starting Debug Script
-Settings use_llm: True
-LLM Config: {'type': 'openai_chat', 'model': 'mistral', 'api_base': 'http://localhost:11434/v1', 'api_key': 'not-needed-for-local', 'temperature': 0.7, 'max_tokens': 2000}
-Extractor initialized. Model: mistral, Base: http://localhost:11434/v1
-Invoking LLM...
-LLM Response:  Hello there! How can I assist you today?
