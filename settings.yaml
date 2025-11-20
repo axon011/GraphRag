@@ -1,0 +1,42 @@
+encoding_type: cl100k_base
+api_version: 2024-02-15-preview
+type: "openai_chat"
+
+# Configuration for using Ollama locally (FREE - no API costs)
+llm:
+  type: "openai_chat"
+  model: "mistral"
+  api_base: "http://localhost:11434/v1"
+  api_key: "not-needed-for-local"
+  temperature: 0.7
+  max_tokens: 2000
+  max_tokens: 2000
+
+# Global settings
+use_llm: true
+
+# Embedding configuration
+embeddings:
+  type: "openai_embedding"
+  model: "nomic-embed-text"
+  api_base: "http://localhost:11434/api"
+
+# Graph extraction settings
+graphrag:
+  entity_extraction:
+    max_gleanings: 1
+    temperature: 0.7
+  
+  clustering:
+    strategy: "leiden"
+    max_cluster_size: 10
+
+# Text chunking
+chunks:
+  size: 1200
+  overlap: 100
+
+# Snapshots and storage
+snapshots:
+  enabled: true
+  output_dir: "output/snapshots"

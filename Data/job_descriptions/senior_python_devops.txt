@@ -1,0 +1,58 @@
+Senior Python/DevOps Engineer
+Remote - Full Time
+
+Company: TechCorp Inc. (Series B Startup)
+Salary: $120,000 - $160,000
+
+POSITION OVERVIEW
+We are seeking an experienced Senior Python Developer with strong DevOps expertise to lead backend infrastructure development. You'll work on critical microservices that scale to millions of users.
+
+KEY RESPONSIBILITIES
+- Design and implement scalable Python microservices
+- Manage Kubernetes infrastructure for production workloads
+- Implement CI/CD pipelines and monitoring solutions
+- Mentor junior engineers and lead code reviews
+- Optimize system performance and reduce cloud costs
+- Participate in architecture decisions
+
+REQUIRED QUALIFICATIONS (Must Have)
+- 5+ years of professional Python development
+- 3+ years of DevOps/Infrastructure experience
+- Strong expertise with Docker and Kubernetes
+- AWS cloud platform experience (EC2, RDS, S3)
+- Experience with CI/CD systems (GitHub Actions, GitLab CI)
+- Solid understanding of REST API design
+- PostgreSQL or relational database knowledge
+- Experience with monitoring tools (Prometheus, Grafana, DataDog)
+- Strong communication and mentoring skills
+- Linux/Unix command line proficiency
+
+NICE TO HAVE QUALIFICATIONS
+- Machine Learning framework experience (PyTorch, TensorFlow)
+- Terraform or Infrastructure as Code (IaC) experience
+- Microservices architecture knowledge
+- AWS Certification (Solutions Architect, DevOps)
+- Kubernetes Certification (CKA)
+- Open source contributions
+- Experience with message queues (RabbitMQ, Kafka)
+- NoSQL databases (MongoDB)
+
+TECHNICAL STACK
+- Primary: Python 3.9+, FastAPI, Django
+- Infrastructure: Kubernetes, Docker, Terraform
+- Cloud: AWS (primary), Azure (secondary)
+- Databases: PostgreSQL, Redis, MongoDB
+- CI/CD: GitHub Actions, ArgoCD
+- Monitoring: Prometheus, Grafana, DataDog
+- Communication: RabbitMQ, Kafka
+
+BENEFITS
+- Competitive salary + equity
+- 4 weeks PTO
+- Comprehensive health insurance
+- Home office setup budget
+- Professional development budget
+- Flexible working hours
+
+APPLY NOW
+Submit your resume, GitHub profile, and a brief cover letter to careers@techcorp.com

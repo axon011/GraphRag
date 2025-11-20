@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  # Ollama service for local LLMs
+  ollama:
+    image: ollama/ollama:latest
+    container_name: resume-graphrag-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_MODELS=/root/.ollama/models
+    command: serve
+    networks:
+      - graphrag-network
+
+  # Main application service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume-graphrag-app
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - GRAPHRAG_LLM_TYPE=ollama
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    depends_on:
+      - ollama
+    networks:
+      - graphrag-network
+    command: >
+      bash -c "
+        echo 'Waiting for Ollama to be ready...' &&
+        sleep 10 &&
+        ollama pull mistral &&
+        ollama pull nomic-embed-text &&
+        python -m pytest tests/ -v --cov=src
+      "
+
+volumes:
+  ollama_data:
+    driver: local
+
+networks:
+  graphrag-network:
+    driver: bridge

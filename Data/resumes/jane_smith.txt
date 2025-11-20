@@ -1,0 +1,44 @@
+Jane Smith
+Email: jane.smith@example.com
+Phone: +1-555-0456
+
+PROFESSIONAL SUMMARY
+Mid-level Full Stack Developer with 4 years of experience. Proficient in JavaScript, React, and Node.js. Quick learner with interest in cloud technologies and DevOps.
+
+EXPERIENCE
+
+Full Stack Developer | WebServices Ltd. | 2022-2023
+- Built responsive web applications using React and Node.js
+- Developed REST APIs using Express.js
+- Managed MySQL and MongoDB databases
+- Basic Docker containerization for development
+- Participated in agile sprint planning
+
+Junior Full Stack Developer | CodeShop | 2021-2022
+- Developed features using JavaScript and React
+- Fixed bugs and optimized application performance
+- Collaborated with senior developers
+
+Web Developer | LocalStartup | 2020-2021
+- Built HTML/CSS/JavaScript web pages
+- Managed simple MySQL databases
+- Learned version control with Git
+
+EDUCATION
+B.A. in Information Technology | College of Arts | 2020
+
+SKILLS
+- Languages: JavaScript, Python (basics), HTML, CSS
+- Frontend: React, Redux, Bootstrap, Tailwind CSS
+- Backend: Node.js, Express.js, Python basics
+- Databases: MySQL, MongoDB
+- Tools: Git, GitHub, VS Code
+- Other: Docker (basics), Figma, Agile
+
+CERTIFICATIONS
+- JavaScript Specialist (2022)
+- React Fundamentals (2021)
+
+ACHIEVEMENTS
+- Reduced page load time by 25% through optimization
+- Implemented reusable React component library

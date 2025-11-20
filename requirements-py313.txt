@@ -1,0 +1,47 @@
+# requirements-py313.txt
+# Updated for Python 3.13.9 - Latest Maintenance Release
+# Release Date: October 14, 2025
+# Compatible with all GraphRAG and dependent packages
+
+# Python Version Constraint
+# Python >=3.13.9,<3.14
+
+# Core GraphRAG & AI Dependencies
+graphrag>=0.3.0
+ollama>=0.1.48
+langchain>=0.2.0
+langchain-community>=0.2.0
+neo4j-graphrag>=1.10.0
+
+# Data Science & Processing (Python 3.13.9 optimized)
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# Graph Processing
+networkx>=3.2
+
+# Utilities
+pydantic>=2.5.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Optional: Embeddings & Vector Search
+sentence-transformers>=3.0.0
+qdrant-client>=2.8.0
+
+# Optional: LLM Providers
+openai>=1.6.0
+
+# Development & Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
+pytest-asyncio>=0.24.0
+
+# Jupyter & Notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# Code Quality
+requests>=2.31.0

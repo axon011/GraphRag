@@ -1,0 +1,27 @@
+# Core dependencies compatible with Python 3.13
+pydantic>=2.0,<3.0
+pandas>=2.0
+numpy>=1.24
+networkx>=3.0
+pyyaml>=6.0
+python-dotenv>=1.0
+requests>=2.31
+
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
+
+# Jupyter (optional)
+jupyter>=1.0
+ipykernel>=6.0
+
+# LangChain (install separately if needed)
+langchain>=0.1
+langchain-community>=0.0
+
+# Note: GraphRAG requires Python 3.10-3.12, not compatible with 3.13
+
+
+# PDF Processing
+pypdf>=3.0
+fpdf>=1.7
