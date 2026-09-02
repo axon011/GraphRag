@@ -55,7 +55,7 @@ class MatchingEngine:
         """
         candidates_path = Path(candidates_directory)
         
-        for resume_file in candidates_path.glob("resumes/*.txt"):
+        for resume_file in candidates_path.glob("*.txt"):
             with open(resume_file, 'r') as f:
                 text = f.read()
             
@@ -63,7 +63,7 @@ class MatchingEngine:
             graph = self.graph_builder.build_from_text(text, document_type="resume")
             self.candidate_graphs[candidate_name] = graph
 
-        for resume_file in candidates_path.glob("resumes/*.pdf"):
+        for resume_file in candidates_path.glob("*.pdf"):
             text = ""
             try:
                 with open(resume_file, 'rb') as f:

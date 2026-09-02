@@ -6,8 +6,8 @@ def main():
     print("Initializing Matching Engine...")
     engine = MatchingEngine()
     
-    print("Loading candidates from Data...")
-    engine.load_candidates("Data")
+    print("Loading candidates from Data/resumes...")
+    engine.load_candidates("Data/resumes")
     
     print(f"Loaded {len(engine.candidate_graphs)} candidates.")
     
